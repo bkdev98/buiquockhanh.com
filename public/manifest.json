@@ -1,0 +1,9 @@
+{
+  "short_name": "buiquockhanh.com",
+  "name": "Freelance JS Developer in HCMC | Bui Quoc Khanh",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#efefef",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff"
+}

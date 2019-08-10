@@ -1,0 +1,132 @@
+.Detail {
+  overflow-y: scroll;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  // font-size: 1.05rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem; //var(--padding);
+  max-width: 60rem;
+}
+
+.Detail-inner {
+  max-width: 60rem;
+}
+
+.Detail-title {
+  font-size: 1.75rem;
+  font-family: "Rammetto One";
+  margin-bottom: 2rem;
+  font-weight: 100;
+  letter-spacing: -0.75px;
+}
+
+.Detail-anchor {
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.Icon-project {
+  width: 4.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.Detail-iconlist {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.Icon-list-item {
+  // max-width: 8rem;
+  max-height: 3rem;
+  margin-right: 1rem;
+}
+
+.Detail-panel {
+  // max-width: 32rem;
+}
+
+.Detail-panel--primary {
+  max-width: 30rem;
+  padding-right: 1rem;
+}
+
+.Detail-panel--secondary {
+  margin-bottom: 4rem;
+  max-width: 40rem;
+}
+
+.Detail-paragraph {
+  margin-bottom: 3rem;
+  padding-right: 2rem;
+
+  a {
+    font-weight: bold;
+    background-size: 100% 1.15vw;
+    background-position: 0 16px;
+
+    // background-repeat: no-repeat;
+    // background-image: linear-gradient(to right, #333, #333 70%);
+    // text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      // background-image: linear-gradient(to right, #ff8c42, #e33532 70%);
+    }
+  }
+}
+
+.Icon-open {
+  max-width: 1.25rem;
+  max-height: 1.25rem;
+  margin-left: 0.5rem;
+}
+
+.Icon-fallback {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .Detail {
+    position: absolute;
+    display: flex;
+    // padding-left: var(--padding-lg);
+    // padding-right: var(--padding-lg);
+    padding: var(--padding-lg);
+  }
+
+  .Detail-paragraph {
+    margin-top: 4.25rem;
+  }
+
+  .Icon-project {
+    width: 6rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .Detail-title {
+    font-size: 2rem;
+    padding-right: 0.9rem;
+  }
+
+  .Detail-panel--primary {
+    width: 55rem;
+    padding-right: 2rem;
+  }
+
+  .Detail-panel--secondary {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}

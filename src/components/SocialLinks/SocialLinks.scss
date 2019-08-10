@@ -1,0 +1,44 @@
+.social-links {
+  display: flex;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 0;
+}
+
+.social-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  fill: currentColor;
+  z-index: 1;
+}
+
+.social-anchor {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  position: relative;
+  justify-content: center;
+
+  svg {
+    width: 2.25rem;
+    height: 2.25rem;
+    fill: currentColor;
+    z-index: 1;
+  }
+}
+
+.Social-anchor-circle {
+  position: absolute;
+  background-color: #333;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 500px) {
+  .social-links {
+    margin-bottom: 3rem;
+  }
+}

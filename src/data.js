@@ -8,12 +8,18 @@ import innoteqPosSm from './imgs/innoteq-pos-sm.png'
 import innoteqPosLg from './imgs/innoteq-pos-lg.png'
 import ipeedySm from './imgs/ipeedy-sm.png'
 import ipeedyLg from './imgs/ipeedy-lg.png'
+import qckhnhSm from './imgs/qckhnh-sm.png'
+import qckhnhLg from './imgs/qckhnh-lg.png'
+import omsSm from './imgs/oms-sm.png'
+import omsLg from './imgs/oms-lg.png'
 
 import coldbrewSvg from './icons/coldbrew.svg'
 import dreamyGardenSvg from './icons/dreamy-garden.svg'
 import innoteqCrmSvg from './icons/innoteq-crm.svg'
 import innoteqPosSvg from './icons/innoteq-pos.svg'
 import ipeedySvg from './icons/ipeedy.svg'
+import qckhnhSvg from './icons/qckhnh.svg'
+import omsSvg from './icons/oms.svg'
 
 import { ReactComponent as ReactIcon } from './icons/react.svg'
 import { ReactComponent as ReduxIcon } from './icons/redux.svg'
@@ -45,10 +51,9 @@ export default [
     textColor: '#ffffff',
   },
   {
-    title: 'Dreamy Garden',
-    path: '/dreamy-garden',
+    title: 'QTSC OMS',
+    path: '/qtsc-oms',
     offsetY: 0,
-    logo: dreamyGardenSvg,
     icons: [
       {
         Icon: ReactIcon,
@@ -58,15 +63,20 @@ export default [
         Icon: ReduxIcon,
         title: 'Redux'
       },
+      {
+        Icon: Google,
+        title: 'Google Calendar API'
+      },
     ],
-    url: 'https://dreamygarden.com/',
-    imageLg: dreamyGardenLg,
-    imageSm: dreamyGardenSm,
-    intro: 'Another mobile app improves your sleep habits, except for it works this time!',
-    subtitle: 'Improve your sleep habits!',
-    description: '<p>Laborum Lorem consectetur aliqua ipsum aliquip incididunt officia mollit tempor deserunt in aliquip sunt. Consectetur aute veniam irure et deserunt ipsum proident laborum. Ad exercitation fugiat adipisicing minim esse sit non deserunt ad tempor. Esse occaecat ad ex incididunt aute occaecat aliquip esse exercitation magna. Eiusmod aliquip ullamco deserunt magna. Fugiat ea proident nostrud non ad eiusmod aute culpa nulla voluptate aliquip. Do incididunt nisi sunt excepteur ex occaecat aliqua exercitation esse consequat sint mollit aute veniam.</p>',
-    theme: '#F1EAE2',
-    textColor: '#3B3739',
+    url: '#',
+    imageLg: omsLg,
+    imageSm: omsSm,
+    logo: omsSvg,
+    intro: 'Operations Management Suite mobile for Quang Trung Software City.',
+    subtitle: 'QTSC\'s Operations Management Suite mobile',
+    description: '<p>A client project I made at <b>Hisoft</b> company in late 2017.</p>',
+    textColor: '#333333',
+    theme: '#FFB8B8',
   },
   {
     title: 'Innoteq POS',
@@ -88,14 +98,58 @@ export default [
     imageSm: innoteqPosSm,
     intro: 'Manage restaurants, coffee shops and grocery stores make easy!',
     subtitle: 'Manage restaurants, coffee shops and grocery stores make easy!',
-    description: '<p>Ullamco duis occaecat aliqua ex velit et eu cupidatat excepteur Lorem quis. Tempor ullamco sint sint qui reprehenderit incididunt ullamco nostrud. Fugiat sit quis veniam incididunt Lorem ex do aliqua veniam sunt sit aliqua anim. Lorem ipsum amet dolore laborum mollit fugiat incididunt commodo commodo. Commodo velit ea sint quis excepteur aliquip aliqua commodo dolore elit culpa. Enim quis fugiat excepteur consequat aute amet exercitation ipsum.</p>',
+    description: '<p>TODO: description</p>',
     theme: '#2D3446',
     textColor: '#fff'
   },
   {
+    title: 'Dreamy Garden',
+    path: '/dreamy-garden',
+    offsetY: 10,
+    logo: dreamyGardenSvg,
+    icons: [
+      {
+        Icon: ReactIcon,
+        title: 'React'
+      },
+      {
+        Icon: ReduxIcon,
+        title: 'Redux'
+      },
+    ],
+    url: 'https://dreamygarden.com/',
+    imageLg: dreamyGardenLg,
+    imageSm: dreamyGardenSm,
+    intro: 'Another mobile app improves your sleep habits, except for it works this time!',
+    subtitle: 'Improve your sleep habits!',
+    description: '<p>A hobby project made in Tet holiday 2019.</p>',
+    theme: '#F1EAE2',
+    textColor: '#3B3739',
+  },
+  {
+    title: 'qckhnh.com',
+    path: '/qckhnh',
+    offsetY: 20,
+    logo: qckhnhSvg,
+    icons: [
+      {
+        Icon: ReactIcon,
+        title: 'React'
+      },
+    ],
+    url: 'https://qckhnh.com/',
+    imageLg: qckhnhLg,
+    imageSm: qckhnhSm,
+    intro: 'My writings about tech and life.',
+    subtitle: 'My writings about tech and life.',
+    description: '<p>Built on top of <a href="https://qckhnh.com/tutorials/jamstack-va-tuong-lai-cua-static-web-applications/" target="_blank">JAMStack</a> using <b>Gatsby</b> and <b>Netlify CMS</b>, deployed on <b>Netlify</b>.</p>',
+    theme: '#ffffff',
+    textColor: '#333333',
+  },
+  {
     title: 'Innoteq CRM',
     path: '/innoteq-crm',
-    offsetY: 40,
+    offsetY: 20,
     icons: [
       {
         Icon: ReactIcon,
@@ -108,14 +162,14 @@ export default [
     logo: innoteqCrmSvg,
     intro: 'Effective customer relationship management solution.',
     subtitle: 'Effective customer relationship management solution.',
-    description: '<p>Enim laborum eiusmod adipisicing ex culpa fugiat proident est mollit. Lorem nisi laborum Lorem cillum. Magna nulla aute occaecat commodo aliqua anim aliqua do amet voluptate labore proident ullamco mollit. Dolore esse nulla ullamco incididunt labore dolore. Laboris dolor culpa elit laborum voluptate ex. Occaecat fugiat reprehenderit cupidatat exercitation velit ipsum incididunt aute laborum aliquip.</p>',
+    description: '<p>TODO: description</p>',
     textColor: '#333',
     theme: '#F0F2F5',
   },
   {
     title: 'Ipeedy',
     path: '/ipeedy',
-    offsetY: 40,
+    offsetY: 20,
     icons: [
       {
         Icon: ReactIcon,
@@ -128,7 +182,7 @@ export default [
     logo: ipeedySvg,
     intro: 'Uber-like mobile app for selling small business.',
     subtitle: 'Market for the people, by the people!',
-    description: '<p>Enim laborum eiusmod adipisicing ex culpa fugiat proident est mollit. Lorem nisi laborum Lorem cillum. Magna nulla aute occaecat commodo aliqua anim aliqua do amet voluptate labore proident ullamco mollit. Dolore esse nulla ullamco incididunt labore dolore. Laboris dolor culpa elit laborum voluptate ex. Occaecat fugiat reprehenderit cupidatat exercitation velit ipsum incididunt aute laborum aliquip.</p>',
+    description: '<p>TODO: description</p>',
     textColor: '#ffffff',
     theme: '#3023AE',
   },
